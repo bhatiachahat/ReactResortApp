@@ -1,0 +1,411 @@
+#header{
+    /* position: relative; */
+   
+}
+#header  nav {
+    opacity:0.9;
+}
+/* body{
+    background-image: url(https://santana-goa.com/images/repeat.jpg);
+    background-repeat: repeat;
+} */
+body{
+    font-family: 'Bree Serif', serif;
+}
+.homebanner{
+    min-height:100vh;
+  display: flex;
+  position:relative;
+  justify-content:center;
+  align-items: center;
+  animation:homecaraousel 20s infinite;
+
+    /* background:url("http://www.clubmahindra.com/sites/default/files/CLBM-GOA-APRIL-6-0-7.jpg") center/cover no-repeat; */
+}
+#heading{
+    color:#F49600;
+}
+.overlay{
+    position:absolute;
+    min-height:100vh;
+    width:100%;
+background-color: rgba(0,0,0,0.4);
+}
+@keyframes homecaraousel{
+    0%,8%{
+background:url("./images/22_04_2018_03_04_061.jpg") center/cover no-repeat;
+    }
+    17%,32%{
+        background:url("./images/22_10_2018_03_10_244.jpg") center/cover no-repeat;
+    }
+    40%,52%{
+        background:url("./images/22_15_2018_03_15_1613 (1).jpg") center/cover no-repeat;
+    }
+    60%,82%{
+        background:url("./images/22_11_2018_03_11_5116.jpg") center/cover no-repeat;
+    }
+    87%,97%{
+        background:url("./images/22_16_2018_03_16_0918.jpg") center/cover no-repeat;
+    }
+    100%{
+        background:url("./images/22_04_2018_03_04_061.jpg") center/cover no-repeat;
+            }
+}
+.roombanner{
+    min-height:60vh;
+  
+
+    background:url("./images/Garden-View-Bedroom.jpg") center/cover no-repeat;
+}
+/* .single-economy{
+
+}
+.double-economy{
+
+}
+.single-basic{
+
+}
+.single-standard{
+
+}
+.double-standard{
+
+}
+.single-deluxe{
+
+}
+.double-deluxe{
+
+}
+.double-basic{
+
+} */
+.image-section{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:8vw;
+    margin-right:5vw;
+}
+.image-section img{
+    width:25vw;
+    margin-right:3vw;
+}
+.single-room-info{
+    margin-left:5vw;
+    margin-right:5vw;
+    /* display:flex;
+    justify-content:space-between; */
+}
+.info{
+    width:40%;
+    margin-left:5vw;
+}
+.desc{
+    width:40%;
+    margin-right:5vw;
+}
+.rooms-list{
+    display:flex;
+    flex-wrap: wrap;
+  margin-left:8vw;
+  margin-top:3vh;
+  margin-bottom:5vh;
+
+}
+/* .allrooms-list{
+    display:flex;
+    flex-wrap: wrap;
+ 
+} */
+.allrooms-list img{
+    width:18vw;
+    margin-left:2vw;
+    margin-top:2vw;
+ 
+}
+#heading_2{
+    text-align: center;
+    margin-top:5vh;
+}
+#hr_2{
+    margin-left:40vw;
+    margin-right:40vw;
+}
+#section{
+    position:relative;
+}
+.box{
+    background:rgba(0,0,0,0.7);
+    height:35vh;
+    width:35vw;
+    margin:auto;
+    padding-top:5vh;
+text-align:center;
+position:absolute;
+top:15vh;
+left:35vw;
+padding-bottom:2vh;
+
+color:white;
+}
+.homebanner .box{
+    background:rgba(0,0,0,0.7);
+    height:35vh;
+    width:45vw;
+    
+    margin:auto;
+    padding-top:5vh;
+   
+text-align:center;
+position:absolute;
+top:35vh;
+left:30vw;
+
+color:white;
+}
+.box h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:300%;
+    font-weight:900;
+}
+.box p{
+letter-spacing: 1px;
+font-size:150%;
+margin-bottom:2vh;
+}
+.box .button{
+    background-color: #F49600;
+    padding:1vh;
+    border-radius:10px;
+    padding-left:1.5vh;
+    padding-right:1.5vh;
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    letter-spacing: 1px;
+   
+    transition:all 0.5s;
+
+}
+.box .button:hover{
+    color:#F49600;
+    background-color: white;
+    transform:scale(1.1);
+    transition:all 0.5s;
+    letter-spacing: 2px;
+}
+#featured-list{
+    list-style: none;
+    display:flex;
+   
+}
+#featured-list li{
+    width:30%;
+}
+ #card{
+    margin-right:2vw;
+}
+#card {
+    width:85%;
+    
+    padding:1vh;
+    /* border:1px solid #F49600; */
+} 
+#error{
+    color:#F49600;
+    margin-left:25vw;
+    margin-top:5vh;
+    margin-bottom:5vh;
+
+}
+/* #card
+.rooms-list{
+    margin-left:-2vw;
+    margin-top:15vh;
+    text-align:center;
+} */
+#title{
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    color:#F49600;
+    margin-bottom:10vh;
+    margin-top:10vh;
+    font-size:270%;
+    position:relative;
+}
+#title:after{
+    content:"";
+    top:9vh;
+    left:38vw;
+background-color: #F49600;
+    height:10%;
+    width:10%;
+    position:absolute;
+
+}
+.rooms-list{
+    text-align: center;
+}
+#featured-list{
+    text-align: left;
+    transition:all 2s ease;
+}
+#featured-list #card{
+    width:25vw;
+    
+}
+
+#featured-list #card #particular-card{
+
+    text-decoration: none;
+}
+#featured-list #card  #particular-card #image{
+    overflow: hidden;
+    border:2px solid#F49600;
+    
+    height:41vh;
+
+}
+#featured-list #card  #particular-card #card-body{
+    text-decoration: none;
+   
+   letter-spacing: 1.5px;
+   text-align:center;
+   
+    color:#F49600;
+
+
+}
+#featured-list #card  #particular-card #card-body .card-title{
+   text-transform: uppercase;
+    font-size:120%;
+
+
+}
+#featured-list #card img{
+    width:100%;
+    margin-left:0vw;
+    height:40vh;
+    margin-top:0.3vh;
+   
+    padding:0.2vw;
+}
+#featured-list #card  #particular-card #image img{
+  
+    transition:all 2s ease;
+}
+
+#featured-list #card  #particular-card #image img:hover{
+    transform: scale(1.1);
+    transition:all 2s ease;
+}
+.allrooms-list{
+   
+}
+.allrooms-list .room-image{
+    border:2px solid#F49600;
+    position:relative;
+    border-radius:10px;
+    margin-left:1vw;
+    margin-bottom:4vh;
+    padding:1vh;
+    overflow:hidden;
+ 
+    padding-top:0vh;
+    
+    
+}
+.allrooms-list .room-image img{
+    margin-left:0vw;
+    border-radius:10px;
+    
+  
+    height:35vh;
+    transition:all 0.5s;
+    margin-top:1vh;
+    width:25vw;
+}
+.allrooms-list .room-image:hover img{
+    transform:scale(1.19);
+}
+.allrooms-list  .room-desc{
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.84);
+
+ height:100%;
+ width:100%;
+ transition:opacity 0.5s;
+ text-decoration:none;
+ letter-spacing:2px;
+ color:#F49600;
+ text-transform:uppercase;
+opacity:0;
+
+ padding:1vh;
+ padding-top:15vh;
+ font-size:170%;
+
+    z-index:100;
+}
+.allrooms-list .room-image:hover .room-desc{
+    opacity:1;
+}
+#heading_2{
+    color:#F49600;  
+padding-top:5vh;
+position:relative;
+
+    margin-bottom:20vh;
+
+}
+#heading_2:after{
+    content:"";
+    height:5%;
+    position:absolute;
+
+    width:10%;
+
+    top:16vh;
+    left:43vw;
+    background:#F49600;
+}
+.jumbotron{
+    background:#F49600;
+    margin-top:5vh;
+    color:white;
+    letter-spacing: 1px;
+}
+#heading_3{
+    text-align:center;
+    font-weight:bold;
+    font-size:350%;
+}
+.form-group #type{
+    outline:none;
+text-decoration: none;
+
+}
+input[type=range] {
+    outline:none;
+}
+#desc{
+    margin-left:3vw;
+    margin-top:3vh;
+    color:#F49600;
+    padding-right:3vw;
+    font-size:120%;
+}
+#info{
+    margin-left:3vw;
+    color:#F49600;
+    font-size:130%;
+}
+.single-room .image-section img{
+    margin-top:4vh;
+    border:2px solid #F49600;
+    padding:1vh;
+}
